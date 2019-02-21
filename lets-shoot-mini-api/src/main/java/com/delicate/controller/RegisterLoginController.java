@@ -4,6 +4,8 @@ import com.delicate.pojo.User;
 import com.delicate.service.UserService;
 import com.delicate.utils.JSONResult;
 import com.delicate.utils.MD5Utils;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,11 +13,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Api(value = "User Register/Login", tags = {"Register/Login Controller"})
 public class RegisterLoginController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/regist")
+    @ApiOperation(value = "User Register", notes = "Interface for user registering")
+    @PostMapping("/register")
     public JSONResult register(@RequestBody User user) throws Exception {
         if (StringUtils.isBlank(user.getUsername()) || StringUtils.isBlank(user.getPassword())) {
             return JSONResult.errorMsg("Username and password cannot be blank.");

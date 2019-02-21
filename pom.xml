@@ -10,13 +10,12 @@
         <module>lets-shoot-pojo</module>
         <module>lets-shoot-dao</module>
         <module>lets-shoot-service</module>
-        <module>mybatis-generatorConfig</module>
     </modules>
 
     <groupId>com.delicate</groupId>
     <artifactId>lets-shoot</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <username>lets-shoot</username>
+    <name>lets-shoot</name>
     <description>A backend support application for lets-shoot mini-program.</description>
 
     <parent>

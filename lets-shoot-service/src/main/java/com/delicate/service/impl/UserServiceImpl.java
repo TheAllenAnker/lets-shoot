@@ -1,6 +1,6 @@
 package com.delicate.service.impl;
 
-import com.delicate.dao.UserMapper;
+import com.delicate.mapper.UserMapper;
 import com.delicate.pojo.User;
 import com.delicate.service.UserService;
 import org.n3r.idworker.Sid;

@@ -9,6 +9,6 @@
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="salt" jdbcType="VARCHAR" property="salt" />
-    <result column="headUrl" jdbcType="VARCHAR" property="headUrl" />
+    <result column="faceImage" jdbcType="VARCHAR" property="faceImage" />
   </resultMap>
 </mapper>

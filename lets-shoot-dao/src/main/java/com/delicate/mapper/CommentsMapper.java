@@ -1,4 +1,4 @@
-package com.delicate.dao;
+package com.delicate.mapper;
 
 import com.delicate.pojo.Comments;
 import com.delicate.utils.MyMapper;

@@ -1,4 +1,4 @@
-package com.delicate.dao;
+package com.delicate.mapper;
 
 import com.delicate.pojo.UsersReports;
 import com.delicate.utils.MyMapper;

@@ -1,26 +1,37 @@
 package com.delicate.pojo;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 
+@ApiModel(value = "User Login Type", description = "Entity Type for User Registering")
 public class User {
+    @ApiModelProperty(hidden = true)
     @Id
     private String id;
 
+    @ApiModelProperty(value = "Username", name = "username", example = "username_example", required = true)
     private String username;
 
     private String nickname;
 
+    @ApiModelProperty(value = "Password", name = "password", example = "password_example!#$12", required = true)
     private String password;
 
+    @ApiModelProperty(hidden = true)
     private int fansCount;
 
+    @ApiModelProperty(hidden = true)
     private int followCount;
 
+    @ApiModelProperty(hidden = true)
     private int receivedLikeCount;
 
+    @ApiModelProperty(hidden = true)
     @Column(name = "faceImage")
-    private String headUrl;
+    private String faceImage;
 
 
     public String getNickname() {
@@ -98,16 +109,16 @@ public class User {
     }
 
     /**
-     * @return headUrl
+     * @return faceImage
      */
-    public String getHeadUrl() {
-        return headUrl;
+    public String getFaceImage() {
+        return faceImage;
     }
 
     /**
-     * @param headUrl
+     * @param faceImage
      */
-    public void setHeadUrl(String headUrl) {
-        this.headUrl = headUrl;
+    public void setFaceImage(String faceImage) {
+        this.faceImage = faceImage;
     }
 }

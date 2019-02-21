@@ -1,5 +1,4 @@
 com/delicate/dao/CommentsMapper.class
-com/delicate/dao/UsersMapper.class
 com/delicate/dao/UsersReportsMapper.class
 com/delicate/dao/UsersFansMapper.class
 com/delicate/dao/UsersLikeVideosMapper.class
