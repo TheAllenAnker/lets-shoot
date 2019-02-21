@@ -5,11 +5,11 @@
 
 <generatorConfiguration>
     <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
-        <property name="beginningDelimiter" value="`"/>
-        <property name="endingDelimiter" value="`"/>
+        <property username="beginningDelimiter" value="`"/>
+        <property username="endingDelimiter" value="`"/>
 
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="com.delicate.utils.MyMapper"/>
+            <property username="mappers" value="com.delicate.utils.MyMapper"/>
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
@@ -28,14 +28,6 @@
         <javaClientGenerator targetPackage="com.delicate.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
-
-        <table tableName="audios"/>
-        <table tableName="comments"/>
-        <table tableName="search_records"/>
-        <table tableName="users"/>
-        <table tableName="users_fans"/>
-        <table tableName="users_like_videos"/>
-        <table tableName="users_reports"/>
-        <table tableName="videos"/>
+        <table tableName="user"/>
     </context>
 </generatorConfiguration>

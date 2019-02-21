@@ -1,0 +1,113 @@
+package com.delicate.pojo;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class User {
+    @Id
+    private String id;
+
+    private String username;
+
+    private String nickname;
+
+    private String password;
+
+    private int fansCount;
+
+    private int followCount;
+
+    private int receivedLikeCount;
+
+    @Column(name = "faceImage")
+    private String headUrl;
+
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public int getFansCount() {
+        return fansCount;
+    }
+
+    public void setFansCount(int fansCount) {
+        this.fansCount = fansCount;
+    }
+
+    public int getFollowCount() {
+        return followCount;
+    }
+
+    public void setFollowCount(int followCount) {
+        this.followCount = followCount;
+    }
+
+    public int getReceivedLikeCount() {
+        return receivedLikeCount;
+    }
+
+    public void setReceivedLikeCount(int receivedLikeCount) {
+        this.receivedLikeCount = receivedLikeCount;
+    }
+
+    /**
+     * @return id
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * @param id
+     */
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return username
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     * @param username
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    /**
+     * @return password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * @param password
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * @return headUrl
+     */
+    public String getHeadUrl() {
+        return headUrl;
+    }
+
+    /**
+     * @param headUrl
+     */
+    public void setHeadUrl(String headUrl) {
+        this.headUrl = headUrl;
+    }
+}

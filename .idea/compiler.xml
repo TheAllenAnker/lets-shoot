@@ -11,11 +11,9 @@
         <module name="lets-shoot-mini-api" />
         <module name="lets-shoot-pojo" />
         <module name="lets-shoot-service" />
+        <module name="mybatis-generatorConfig" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mybatis-generatorConfig" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

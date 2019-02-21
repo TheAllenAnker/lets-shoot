@@ -12,7 +12,7 @@
     <artifactId>lets-shoot-mini-api</artifactId>
     <packaging>war</packaging>
 
-    <name>lets-shoot-mini-api Maven Webapp</name>
+    <username>lets-shoot-mini-api Maven Webapp</username>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
