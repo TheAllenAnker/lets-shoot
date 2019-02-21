@@ -4,6 +4,10 @@
     <list default="true" id="8623b4b4-72a1-4d58-84b8-2b778d1cc077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/RegisterLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +28,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="267">
+              <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -36,72 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersFansMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="139">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,8 +95,6 @@
         <option value="$PROJECT_DIR$/mybatis-generatorConfig/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegistLoginController.java" />
         <option value="$PROJECT_DIR$/lets-shoot-commons/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -157,6 +104,9 @@
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" />
       </list>
     </option>
@@ -290,39 +240,32 @@
               <item name="lets-shoot-mini-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="delicate" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -330,11 +273,21 @@
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +304,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550750765015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550755019724" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -466,16 +419,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550712785177</updated>
-      <workItem from="1550712786813" duration="15235000" />
+      <workItem from="1550712786813" duration="17132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15235000" />
+    <option name="totallyTimeSpent" value="17132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -666,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-generatorConfig/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -806,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersFansMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -826,13 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="148">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
         </state>
       </provider>
     </entry>
@@ -846,27 +778,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+    <entry file="file://$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="485" selection-start-line="485" selection-end-line="485" />
+        <state relative-caret-position="45">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="267">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

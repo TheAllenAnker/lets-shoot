@@ -17,6 +17,14 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private Sid sid;
 
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public User findUserByUsername(String username) {
+        User user = new User();
+        user.setUsername(username);
+        return userMapper.selectOne(user);
+    }
+
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public boolean isUsernameExists(String username) {

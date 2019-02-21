@@ -39,4 +39,22 @@ public class RegisterLoginController {
         user.setPassword("");
         return JSONResult.ok(user);
     }
+
+    @ApiOperation(value = "User Login", notes = "Interface for user login")
+    @PostMapping("/login")
+    public JSONResult login(@RequestBody User user) throws Exception {
+        if (StringUtils.isBlank(user.getUsername()) || StringUtils.isBlank(user.getPassword())) {
+            return JSONResult.errorMsg("用户名或密码不能为空");
+        }
+
+        if (userService.isUsernameExists(user.getUsername())) {
+            User foundUser = userService.findUserByUsername(user.getUsername());
+            if (MD5Utils.getMD5Str(user.getPassword()).equals(foundUser.getPassword())) {
+                foundUser.setPassword("");
+                return JSONResult.ok(foundUser);
+            }
+        }
+
+        return JSONResult.errorMsg("用户名或密码不正确");
+    }
 }
