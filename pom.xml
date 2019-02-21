@@ -10,6 +10,7 @@
         <module>lets-shoot-pojo</module>
         <module>lets-shoot-dao</module>
         <module>lets-shoot-service</module>
+        <module>mybatis-generatorConfig</module>
     </modules>
 
     <groupId>com.delicate</groupId>
