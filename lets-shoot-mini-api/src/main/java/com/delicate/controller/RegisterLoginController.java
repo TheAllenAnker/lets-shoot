@@ -36,6 +36,7 @@ public class RegisterLoginController {
             return JSONResult.errorMsg("Sorry, this username has been taken.");
         }
 
-        return JSONResult.ok();
+        user.setPassword("");
+        return JSONResult.ok(user);
     }
 }

@@ -2,65 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8623b4b4-72a1-4d58-84b8-2b778d1cc077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-commons/target/lets-shoot-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-commons/target/lets-shoot-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/AudiosMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/AudiosMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/CommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/CommentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/SearchRecordsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/SearchRecordsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/UsersFansMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UsersFansMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/UsersLikeVideosMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UsersLikeVideosMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/UsersReportsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UsersReportsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/dao/VideosMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/VideosMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/AudiosMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/CommentsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/SearchRecordsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/UsersFansMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/UsersLikeVideosMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/UsersReportsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/classes/com/delicate/dao/VideosMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/lets-shoot-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/target/lets-shoot-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/HelloWorldController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/RegistLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/mapper/AudiosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/mapper/AudiosMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api.war" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/classes/mapper/AudiosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/classes/mapper/AudiosMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-commons-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/lib/lets-shoot-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/lets-shoot-mini-api/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-pojo/target/classes/com/delicate/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-pojo/target/classes/com/delicate/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-pojo/target/lets-shoot-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-pojo/target/lets-shoot-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-service/target/lets-shoot-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/target/lets-shoot-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lets-shoot-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="282">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +150,6 @@
         <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegistLoginController.java" />
         <option value="$PROJECT_DIR$/lets-shoot-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/pom.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Application.java" />
@@ -215,6 +157,7 @@
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" />
       </list>
     </option>
   </component>
@@ -408,7 +351,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550742534956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550750765015" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -523,15 +466,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550712785177</updated>
-      <workItem from="1550712786813" duration="13898000" />
+      <workItem from="1550712786813" duration="15235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13898000" />
+    <option name="totallyTimeSpent" value="15235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -542,7 +486,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Messages" weight="0.3290653" />
@@ -551,7 +495,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3290653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -921,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="282">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
