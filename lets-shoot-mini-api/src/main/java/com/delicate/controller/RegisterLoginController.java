@@ -1,20 +1,24 @@
 package com.delicate.controller;
 
 import com.delicate.pojo.User;
+import com.delicate.pojo.vo.UserVO;
 import com.delicate.service.UserService;
 import com.delicate.utils.JSONResult;
 import com.delicate.utils.MD5Utils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 @RestController
 @Api(value = "User Register/Login", tags = {"Register/Login Controller"})
-public class RegisterLoginController {
+public class RegisterLoginController extends BasicController {
     @Autowired
     private UserService userService;
 
@@ -37,7 +41,9 @@ public class RegisterLoginController {
         }
 
         user.setPassword("");
-        return JSONResult.ok(user);
+        UserVO userVO = setUserRedisSessionToken(user);
+
+        return JSONResult.ok(userVO);
     }
 
     @ApiOperation(value = "User Login", notes = "Interface for user login")
@@ -51,10 +57,21 @@ public class RegisterLoginController {
             User foundUser = userService.findUserByUsername(user.getUsername());
             if (MD5Utils.getMD5Str(user.getPassword()).equals(foundUser.getPassword())) {
                 foundUser.setPassword("");
-                return JSONResult.ok(foundUser);
+                UserVO userVO = setUserRedisSessionToken(foundUser);
+                return JSONResult.ok(userVO);
             }
         }
 
         return JSONResult.errorMsg("用户名或密码不正确");
+    }
+
+    private UserVO setUserRedisSessionToken(User user) {
+        String uniqueToken = UUID.randomUUID().toString().replace("-", "");
+        redisOperator.set(USER_REDIS_SESSION + ":" + user.getId(), uniqueToken, 1000 * 60 * 30);
+        UserVO userVO = new UserVO();
+        BeanUtils.copyProperties(user, userVO);
+        userVO.setUserToken(uniqueToken);
+
+        return userVO;
     }
 }
