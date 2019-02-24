@@ -1,209 +1,171 @@
-2019-02-23 21:24:40,958 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:24:41,643 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 50869 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:24:41,652 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:24:44,758 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:24:44,901 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:24:44,910 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:24:45,003 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
-2019-02-23 21:24:45,786 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be270480] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:24:46,628 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:24:46,930 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 5150 ms
-2019-02-23 21:24:47,657 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:24:48,832 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:24:50,553 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:24:52,685 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:24:53,017 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:24:53,176 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:24:53,181 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:24:53,182 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:24:53,183 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:24:54,119 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:24:54,182 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:24:54,296 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:24:54,744 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:24:54,754 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 14.179 seconds (JVM running for 17.105)
-2019-02-23 21:26:05,271 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:26:05,301 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 28 ms
-2019-02-23 21:31:59,272 [http-nio-8081-exec-3] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:31:59,277 [http-nio-8081-exec-3] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 21:34:45,810 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:34:45,836 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 21:35:19,525 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:35:19,916 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 50977 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:35:19,923 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:35:22,394 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:35:22,494 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:35:22,502 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:35:22,572 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
-2019-02-23 21:35:23,160 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75897490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:35:23,762 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:35:24,067 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 4005 ms
-2019-02-23 21:35:24,705 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:35:25,383 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:35:26,461 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:35:27,037 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:35:27,218 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:35:27,318 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:35:27,320 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:35:27,321 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:35:27,322 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:35:27,694 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:35:27,739 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:35:27,787 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:35:28,072 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:35:28,078 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 8.76 seconds (JVM running for 10.886)
-2019-02-23 21:36:50,539 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:36:50,556 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 17 ms
-2019-02-23 21:36:51,187 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:36:51,189 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 21:44:00,534 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:44:00,566 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 21:44:07,820 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:44:08,323 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 51109 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:44:08,328 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:44:11,002 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:44:11,102 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:44:11,111 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:44:11,191 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
-2019-02-23 21:44:11,765 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea1e2849] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:44:12,358 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:44:12,592 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 4142 ms
-2019-02-23 21:44:13,239 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:44:13,924 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:44:14,921 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:44:15,524 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:44:15,673 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:44:15,773 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:44:15,775 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:44:15,776 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:44:15,777 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:44:16,159 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:44:16,179 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:44:16,220 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:44:16,518 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:44:16,531 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 8.919 seconds (JVM running for 10.521)
-2019-02-23 21:46:28,816 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:46:28,839 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 21 ms
-2019-02-23 21:46:29,562 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:46:29,564 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 21:52:13,410 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:52:13,444 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 21:52:20,756 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:52:21,045 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 51407 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:52:21,058 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:52:23,132 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:52:23,220 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:52:23,227 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:52:23,294 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
-2019-02-23 21:52:23,786 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2aee783] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:52:24,299 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:52:24,503 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 3339 ms
-2019-02-23 21:52:25,050 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:52:25,676 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:52:26,666 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:52:27,230 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:52:27,405 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:52:27,498 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:52:27,500 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:52:27,501 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:52:27,502 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:52:27,828 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:52:27,844 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:52:27,881 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:52:28,106 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:52:28,114 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 7.561 seconds (JVM running for 9.195)
-2019-02-23 21:53:15,791 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:53:15,814 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 21 ms
-2019-02-23 21:53:16,429 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:53:16,448 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 21:53:23,903 [http-nio-8081-exec-2] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:197)] - [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2019-02-23 21:54:31,855 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:54:31,877 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 21:54:39,133 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:54:39,457 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 51447 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:54:39,463 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:54:41,874 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:54:41,967 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:54:41,975 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:54:42,044 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
-2019-02-23 21:54:42,589 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea1e2849] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:54:43,120 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:54:43,347 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 3797 ms
-2019-02-23 21:54:43,932 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:54:44,609 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:54:45,647 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:54:46,271 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:54:46,419 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:54:46,555 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:54:46,563 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:54:46,564 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:54:46,567 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:54:46,948 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:54:46,967 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:54:47,013 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:54:47,244 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:54:47,251 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 8.302 seconds (JVM running for 9.913)
-2019-02-23 21:55:42,232 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:55:42,256 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 22 ms
-2019-02-23 21:55:42,927 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:55:42,929 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 21:58:19,101 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:58:19,123 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 21:58:26,516 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 21:58:26,838 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 51487 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 21:58:26,846 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 21:58:29,142 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 21:58:29,235 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 21:58:29,242 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 21:58:29,304 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
-2019-02-23 21:58:29,834 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23450050] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 21:58:30,423 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 21:58:30,629 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 3706 ms
-2019-02-23 21:58:31,173 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 21:58:31,794 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 21:58:32,845 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 21:58:33,463 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 21:58:33,611 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 21:58:33,716 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 21:58:33,719 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 21:58:33,719 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 21:58:33,720 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 21:58:34,082 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 21:58:34,101 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 21:58:34,135 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 21:58:34,366 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 21:58:34,374 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 8.045 seconds (JVM running for 9.603)
-2019-02-23 21:59:30,962 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 21:59:30,983 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 19 ms
-2019-02-23 21:59:31,622 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 21:59:31,625 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
-2019-02-23 22:04:36,633 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-23 22:04:36,695 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
-2019-02-23 22:04:46,407 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
-2019-02-23 22:04:46,761 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on 64.48.167.220.broad.cd.sc.dynamic.163data.com.cn with PID 51537 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
-2019-02-23 22:04:46,771 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
-2019-02-23 22:04:49,044 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
-2019-02-23 22:04:49,141 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
-2019-02-23 22:04:49,151 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-23 22:04:49,241 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
-2019-02-23 22:04:49,764 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3469b665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-23 22:04:50,265 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
-2019-02-23 22:04:50,494 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 3629 ms
-2019-02-23 22:04:51,088 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
-2019-02-23 22:04:51,724 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
-2019-02-23 22:04:52,695 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-02-23 22:04:53,252 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-23 22:04:53,397 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2019-02-23 22:04:53,502 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
-2019-02-23 22:04:53,505 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
-2019-02-23 22:04:53,506 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
-2019-02-23 22:04:53,506 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
-2019-02-23 22:04:53,875 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
-2019-02-23 22:04:53,893 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
-2019-02-23 22:04:53,927 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
-2019-02-23 22:04:54,165 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
-2019-02-23 22:04:54,173 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 7.98 seconds (JVM running for 9.96)
-2019-02-23 22:07:31,274 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
-2019-02-23 22:07:31,296 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 21 ms
-2019-02-23 22:07:31,943 [http-nio-8081-exec-1] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
-2019-02-23 22:07:31,946 [http-nio-8081-exec-1] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
+2019-02-24 09:32:16,179 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-24 09:32:16,195 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
+2019-02-24 13:48:44,900 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
+2019-02-24 13:48:45,247 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on Allens-Property.local with PID 699 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
+2019-02-24 13:48:45,251 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
+2019-02-24 13:48:47,458 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
+2019-02-24 13:48:47,589 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 13:48:47,597 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 13:48:47,702 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 57ms. Found 0 repository interfaces.
+2019-02-24 13:48:48,418 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$38e3d257] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 13:48:49,120 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
+2019-02-24 13:48:49,395 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 4051 ms
+2019-02-24 13:48:50,058 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
+2019-02-24 13:48:51,252 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
+2019-02-24 13:48:51,917 [main] [org.n3r.idworker.utils.Ip.<clinit>(Ip.java:30)] - [ERROR] get ipv4 failed 
+java.lang.NullPointerException
+	at org.n3r.idworker.utils.Ip.<clinit>(Ip.java:22)
+	at org.n3r.idworker.strategy.DefaultWorkerIdStrategy.<init>(DefaultWorkerIdStrategy.java:31)
+	at org.n3r.idworker.strategy.DefaultWorkerIdStrategy.<clinit>(DefaultWorkerIdStrategy.java:22)
+	at org.n3r.idworker.Sid.<clinit>(Sid.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1279)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.delicate.Application.main(Application.java:11)
+2019-02-24 13:48:52,633 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-24 13:48:53,248 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-24 13:48:53,470 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-02-24 13:48:53,576 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-24 13:48:53,577 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-24 13:48:53,578 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-24 13:48:53,579 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
+2019-02-24 13:48:54,050 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
+2019-02-24 13:48:54,098 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
+2019-02-24 13:48:54,148 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
+2019-02-24 13:48:54,506 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-24 13:48:54,515 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 9.872 seconds (JVM running for 17.051)
+2019-02-24 13:49:02,907 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
+2019-02-24 13:49:02,925 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 17 ms
+2019-02-24 13:53:39,992 [Thread-2] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)] - [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-24 13:53:40,018 [Thread-2] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1908)] - [INFO] {dataSource-1} closed
+2019-02-24 13:53:51,548 [background-preinit] [org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] - [INFO] HV000001: Hibernate Validator 6.0.14.Final
+2019-02-24 13:53:51,734 [main] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] - [INFO] Starting Application on Allens-Property.local with PID 760 (/Users/barryallen/Desktop/Development/IDEA/lets-shoot/lets-shoot-mini-api/target/classes started by Fenyr_Allen in /Users/barryallen/Desktop/Development/IDEA/lets-shoot)
+2019-02-24 13:53:51,736 [main] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] - [INFO] No active profile set, falling back to default profiles: default
+2019-02-24 13:53:53,024 [main] [org.mybatis.logging.Logger.warn(Logger.java:44)] - [WARN] No MyBatis mapper was found in '[com.delicate]' package. Please check your configuration.
+2019-02-24 13:53:53,082 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] - [INFO] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 13:53:53,085 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] - [INFO] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 13:53:53,120 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] - [INFO] Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-02-24 13:53:53,538 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] - [INFO] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de4e2b14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 13:53:53,932 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] - [INFO] Tomcat initialized with port(s): 8081 (http)
+2019-02-24 13:53:54,203 [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] - [INFO] Root WebApplicationContext: initialization completed in 2408 ms
+2019-02-24 13:53:54,614 [main] [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)] - [INFO] Init DruidDataSource
+2019-02-24 13:53:55,158 [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:971)] - [INFO] {dataSource-1} inited
+2019-02-24 13:53:55,516 [main] [org.n3r.idworker.utils.Ip.<clinit>(Ip.java:30)] - [ERROR] get ipv4 failed 
+java.lang.NullPointerException
+	at org.n3r.idworker.utils.Ip.<clinit>(Ip.java:22)
+	at org.n3r.idworker.strategy.DefaultWorkerIdStrategy.<init>(DefaultWorkerIdStrategy.java:31)
+	at org.n3r.idworker.strategy.DefaultWorkerIdStrategy.<clinit>(DefaultWorkerIdStrategy.java:22)
+	at org.n3r.idworker.Sid.<clinit>(Sid.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1279)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1395)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.delicate.Application.main(Application.java:11)
+2019-02-24 13:53:56,021 [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)] - [INFO] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-02-24 13:53:56,582 [main] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] - [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-24 13:53:56,723 [main] [org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists(ThymeleafAutoConfiguration.java:108)] - [WARN] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-02-24 13:53:56,779 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-24 13:53:56,780 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-24 13:53:56,781 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)] - [INFO] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-24 13:53:56,782 [main] [tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)] - [INFO] Clear EntityHelper entityTableMap cache.
+2019-02-24 13:53:57,134 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)] - [INFO] Context refreshed
+2019-02-24 13:53:57,156 [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)] - [INFO] Found 1 custom documentation plugin(s)
+2019-02-24 13:53:57,193 [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)] - [INFO] Scanning for api listing references
+2019-02-24 13:53:57,447 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] - [INFO] Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-24 13:53:57,457 [main] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] - [INFO] Started Application in 6.045 seconds (JVM running for 12.823)
+2019-02-24 13:54:00,229 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] - [INFO] Initializing Servlet 'dispatcherServlet'
+2019-02-24 13:54:00,248 [http-nio-8081-exec-1] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] - [INFO] Completed initialization in 11 ms
+2019-02-24 13:54:31,916 [http-nio-8081-exec-9] [io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68)] - [INFO] Starting without optional epoll library
+2019-02-24 13:54:31,918 [http-nio-8081-exec-9] [io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70)] - [INFO] Starting without optional kqueue library
+2019-02-24 13:54:37,020 [http-nio-8081-exec-9] [io.netty.util.internal.MacAddressUtil.defaultMachineId(MacAddressUtil.java:142)] - [WARN] Failed to find a usable hardware address from the network interfaces; using random bytes: 7d:b8:b4:28:1a:9b:e8:5f

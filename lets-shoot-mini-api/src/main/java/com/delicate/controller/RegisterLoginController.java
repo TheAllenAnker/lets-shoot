@@ -6,6 +6,7 @@ import com.delicate.service.UserService;
 import com.delicate.utils.JSONResult;
 import com.delicate.utils.MD5Utils;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -21,6 +22,15 @@ import java.util.UUID;
 public class RegisterLoginController extends BasicController {
     @Autowired
     private UserService userService;
+
+    @ApiOperation(value = "User Logout", notes = "Interface for user logout")
+    @ApiImplicitParam(name = "userId", value = "Logout user's id", required = true, dataType = "String", paramType =
+            "query")
+    @PostMapping("/logout")
+    public JSONResult logout(String userId) throws Exception {
+        redisOperator.del(USER_REDIS_SESSION + ":" + userId);
+        return JSONResult.ok("User Logout Success");
+    }
 
     @ApiOperation(value = "User Register", notes = "Interface for user registering")
     @PostMapping("/register")
