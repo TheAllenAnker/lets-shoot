@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import tk.mybatis.mapper.entity.Example;
+import tk.mybatis.mapper.entity.Example.Criteria;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -16,6 +18,15 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private Sid sid;
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public void updateUserInfo(User user) {
+        Example example = new Example(User.class);
+        Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("id", user.getId());
+        userMapper.updateByExampleSelective(user, criteria);
+    }
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override

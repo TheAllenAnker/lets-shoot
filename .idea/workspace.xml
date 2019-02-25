@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8623b4b4-72a1-4d58-84b8-2b778d1cc077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/RegisterLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-mini-api/target/classes/com/delicate/controller/RegisterLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/lets-shoot-service/target/classes/com/delicate/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,10 +31,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="295">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/JSONResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/RedisOperator.java">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="390">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +76,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/BasicController.java">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,33 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/vo/UserVO.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2466#2467#0" expanded="true" />
-                <element signature="e#2508#2509#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-commons/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="146" column="20" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -118,7 +124,6 @@
         <option value="$PROJECT_DIR$/lets-shoot-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-dao/pom.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-service/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/mybatis-generatorConfig/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/mybatis-generatorConfig/src/main/java/com/delicate/utils/MyMapper.java" />
@@ -143,8 +148,6 @@
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java" />
-        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" />
-        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/lets-shoot-commons/pom.xml" />
         <option value="$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/RedisOperator.java" />
@@ -152,6 +155,11 @@
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/BasicController.java" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -202,7 +210,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,37 +220,20 @@
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="190221CM89A4PARP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="190221CM89A4PARP" type="462c0819:PsiDirectoryNode" />
+              <item name="avatar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
@@ -283,43 +273,25 @@
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="delicate" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-mini-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -327,30 +299,17 @@
             <path>
               <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="lets-shoot-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lets-shoot" type="462c0819:PsiDirectoryNode" />
-              <item name="lets-shoot-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lets-shoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +319,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550987628359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551106967546" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -370,8 +329,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.delicate.pojo.vo" />
       <recent name="com.delicate.controller" />
+      <recent name="com.delicate.pojo.vo" />
       <recent name="com.delicate.pojo" />
       <recent name="com.delicate.dao" />
     </key>
@@ -479,18 +438,22 @@
       <workItem from="1550712786813" duration="17371000" />
       <workItem from="1550811541719" duration="4178000" />
       <workItem from="1550925575006" duration="4969000" />
-      <workItem from="1550986878712" duration="576000" />
+      <workItem from="1550986878712" duration="1829000" />
+      <workItem from="1551017311177" duration="3341000" />
+      <workItem from="1551073419567" duration="2235000" />
+      <workItem from="1551103860104" duration="545000" />
+      <workItem from="1551106223849" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27094000" />
+    <option name="totallyTimeSpent" value="35349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -530,44 +493,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/Audios.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/Videos.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/UsersReports.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/resources/mapper/CommentsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/SearchRecordsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delicate/mapper/AudiosMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/delicate/utils/MyMapper.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis-generatorConfig/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="80" column="10" lean-forward="true" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -756,16 +681,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lets-shoot-dao/src/main/java/com/delicate/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -776,23 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -800,47 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java">
+    <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/JSONResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/RedisOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/BasicController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        <state relative-caret-position="180">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -849,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lets-shoot-pojo/src/main/java/com/delicate/pojo/vo/UserVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2466#2467#0" expanded="true" />
@@ -870,6 +731,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="1350" column="19" selection-start-line="1350" selection-start-column="19" selection-end-line="1350" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="803" column="22" selection-start-line="803" selection-start-column="22" selection-end-line="803" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/RedisOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/190221CM89A4PARP/avatar/wx07de41522b564424.o6zAJs9vCKr2pKHk4y50220zRLZQ.KdZ9TfDKWJt04a91af2233b942306d356a40f61633ea.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/RegisterLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.1.5/mapper-core-1.1.5.jar!/tk/mybatis/mapper/entity/Example.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="686" column="17" lean-forward="true" selection-start-line="686" selection-start-column="17" selection-end-line="686" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-commons/src/main/java/com/delicate/utils/JSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-service/src/main/java/com/delicate/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lets-shoot-mini-api/src/main/java/com/delicate/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

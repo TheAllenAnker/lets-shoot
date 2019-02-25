@@ -27,9 +27,9 @@ public class RegisterLoginController extends BasicController {
     @ApiImplicitParam(name = "userId", value = "Logout user's id", required = true, dataType = "String", paramType =
             "query")
     @PostMapping("/logout")
-    public JSONResult logout(String userId) throws Exception {
+    public JSONResult logout(String userId) {
         redisOperator.del(USER_REDIS_SESSION + ":" + userId);
-        return JSONResult.ok("User Logout Success");
+        return JSONResult.ok("User Logout Success. Deleted session: " + userId);
     }
 
     @ApiOperation(value = "User Register", notes = "Interface for user registering")
