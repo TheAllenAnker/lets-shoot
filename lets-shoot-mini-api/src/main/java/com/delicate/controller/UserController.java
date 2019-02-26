@@ -1,6 +1,7 @@
 package com.delicate.controller;
 
 import com.delicate.pojo.User;
+import com.delicate.pojo.vo.UserVO;
 import com.delicate.service.UserService;
 import com.delicate.utils.JSONResult;
 import io.swagger.annotations.Api;
@@ -8,6 +9,7 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +28,22 @@ import java.io.InputStream;
 public class UserController extends BasicController {
     @Autowired
     private UserService userService;
+
+    @ApiOperation(value = "Query User Info", notes = "Interface for querying user info for profile page")
+    @ApiImplicitParam(name = "userId", value = "User's ID", required = true, dataType = "String",
+            paramType = "query")
+    @PostMapping("/query")
+    public JSONResult query(String userId) {
+        if (userId.isBlank()) {
+            return JSONResult.errorMsg("用户 ID 不能为空");
+        }
+
+        User user = userService.queryUserInfo(userId);
+        UserVO userVO = new UserVO();
+        BeanUtils.copyProperties(user, userVO);
+
+        return JSONResult.ok(userVO);
+    }
 
     @ApiOperation(value = "Upload Avatar", notes = "Interface for user avatar uploading")
     @ApiImplicitParam(name = "userId", value = "The user's id that is uploading", required = true, dataType = "String",

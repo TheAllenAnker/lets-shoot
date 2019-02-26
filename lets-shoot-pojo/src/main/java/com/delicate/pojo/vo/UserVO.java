@@ -1,5 +1,6 @@
 package com.delicate.pojo.vo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -17,6 +18,7 @@ public class UserVO {
     private String nickname;
 
     @ApiModelProperty(value = "Password", name = "password", example = "password_example!#$12", required = true)
+    @JsonIgnore
     private String password;
 
     @ApiModelProperty(hidden = true)
